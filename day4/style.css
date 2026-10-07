@@ -1,0 +1,51 @@
+:root {
+    --background-color: white;
+    --text-color: black;
+    --border-color: #ccc;
+    --button-background: #333;
+    --button-text: white;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    min-height: 200px;
+    margin : 10px 0;
+    padding : 10px;
+    border : 1px solid var(--border-color);
+    font : inherit;
+}
+
+button {
+    background-color: var(--button-background);
+    color: var(--button-text);
+    border: none;
+    padding: 10px 16px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+body.dark {
+    --background-color: #222;
+    --text-color: white;
+    --border-color: #555;
+    --button-background: #eee;
+    --button-text: black;
+}
+
+.warning {
+    color: orange;
+}
+
+.over {
+    color: red;
+    font-weight: bold;
+}
