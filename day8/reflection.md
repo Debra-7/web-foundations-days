@@ -1,0 +1,7 @@
+# Day 8 – Course Reflection
+
+The most difficult concept in this course was system design, particularly understanding how different components work together to support an application as it grows. I initially found it challenging to understand concepts such as caching, database transactions, load balancing and scalability. I overcame this by breaking down the architecture into smaller components, understanding their individual responsibilities and gradually connecting them to form a complete system.
+
+Looking at my TicketHub capstone, one area I would improve is the handling of high-demand ticket sales. Although I included a virtual waiting room, caching, load balancing and database transactions, I would like to explore the implementation of a more detailed queue management system that ensures fairness when thousands of users attempt to purchase tickets simultaneously. I would also improve the payment handling process to account for delayed confirmations, failed transactions and expired seat reservations.
+
+Going forward, I would like to learn more about backend development, cloud computing, database optimization and distributed systems. I want to strengthen my practical skills by building and deploying real-world applications and gaining a deeper understanding of how to design systems that remain reliable as they scale.
